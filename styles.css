@@ -63,4 +63,9 @@ textarea{
     width: 53px;
     background-color: var(--third-green);
     color: white;
+    cursor: pointer;
+}
+
+.button-number:hover{
+    background-color: var(--background-green);
 }
