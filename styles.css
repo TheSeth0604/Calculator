@@ -37,9 +37,10 @@ h1{
     justify-self: center;
 }
 
+/*
 textarea{
     height: 100px;
-    width: 370px;
+    width: 350px;
     border: none;
     align-self: center;
     background-color: var(--second-green);
@@ -47,6 +48,19 @@ textarea{
     resize: none;
     margin-bottom: 30px;
     justify-self: center;
+    color: var(--white);
+    padding: 20px;
+}
+*/
+
+.output-area{
+    height: 100px;
+    width: 350px;
+    background-color: var(--second-green);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    color: var(--white);
+    padding: 20px;
 }
 
 .buttons-area{
@@ -68,4 +82,16 @@ textarea{
 
 .calculator-buttons:hover{
     background-color: var(--background-green);
+}
+
+@media (max-width: 640px) {
+    .calculator-container{
+        width: 380px;
+        padding: 30px;
+    }
+
+    .output-area{
+    height: 80px;
+    width: 330px;
+    }
 }
